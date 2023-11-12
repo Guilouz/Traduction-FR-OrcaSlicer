@@ -19,7 +19,7 @@ Vous trouverez ici la traduction française du slicer OrcaSlicer.
   - Rendez-vous dans le dossier d'installation de Bambu Studio, par défaut : `C:\Program Files\Bambu Studio`.
   - Rendez-vous dans le dossier `\resources\web\data` et remplacez le fichier `text.js` du dossier `data`.
   - Rendez-vous dans le dossier `\resources\web\guide\24` et remplacez le fichier `missing_connection.html` du dossier `guide`.
-  - Rendez-vous ensuite dans le dossier `\resources\i18n\fr` et remplacez le fichier 'OrcaSlicer.mo'.
+  - Rendez-vous ensuite dans le dossier `\resources\i18n\fr` et remplacez le fichier `OrcaSlicer.mo`.
   - Démarrez OrcaSlicer et définissez la langue sur `Français` dans les paramètres.
 
 - **MacOS:**
@@ -29,7 +29,7 @@ Vous trouverez ici la traduction française du slicer OrcaSlicer.
   - Faites un clic droit sur l'application `OrcaSlicer.app` puis `Afficher le contenu du paquet`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\data` et remplacez le fichier `text.js` du dossier `data`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\guide\24` et remplacez le fichier `missing_connection.html` du dossier `guide`.
-  - Rendez-vous ensuite dans le dossier `\Contents\Resources\i18n\fr` et remplacez le fichier 'OrcaSlicer.mo'.
+  - Rendez-vous ensuite dans le dossier `\Contents\Resources\i18n\fr` et remplacez le fichier `OrcaSlicer.mo`.
   - Démarrez OrcaSlicer et définissez la langue sur `Français` dans les paramètres.
 
 ## Changements
