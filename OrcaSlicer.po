@@ -5238,13 +5238,13 @@ msgid "User Sync"
 msgstr "Synchronisation utilisateur"
 
 msgid "Update built-in Presets automatically."
-msgstr "Mettre automatiquement à jour les préréglages intégrés."
+msgstr "Mettre à jour les préréglages intégrés automatiquement"
 
 msgid "System Sync"
 msgstr "Synchronisation du système"
 
 msgid "Clear my choice on the unsaved presets."
-msgstr "Effacer mon choix sur les préréglages non enregistrés."
+msgstr "Effacer mon choix sur les préréglages non enregistrés"
 
 msgid "Associate files to OrcaSlicer"
 msgstr "Associer des fichiers à Orca Slicer"
@@ -5280,7 +5280,7 @@ msgid "Maximum count of recent projects"
 msgstr "Nombre maximal de projets récents"
 
 msgid "Clear my choice on the unsaved projects."
-msgstr "Effacer mon choix sur les projets non enregistrés."
+msgstr "Effacer mon choix sur les projets non enregistrés"
 
 msgid "Auto-Backup"
 msgstr "Sauvegarde automatique"
@@ -8053,7 +8053,7 @@ msgid ""
 "Value 0 enables reversal on every odd layers regardless."
 msgstr ""
 "Nombre de mm que doit avoir le surplomb pour que l’inversion soit considérée "
-"comme utile. Peut représenter un % de la largeur de la paroi.\n"
+"comme utile. Peut représenter un pourcentage de la largeur de la paroi.\n"
 "La valeur 0 permet l’inversion sur toutes les couches impaires, "
 "indépendamment."
 
