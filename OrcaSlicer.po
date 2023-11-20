@@ -670,7 +670,7 @@ msgstr ""
 "les profils d'imprimante ne seront pas affectés."
 
 msgid "Rebuild"
-msgstr "Reconstruire"
+msgstr "Reconstruction"
 
 msgid "Loading current presets"
 msgstr "Chargement des préréglages actuels"
