@@ -6302,7 +6302,7 @@ msgid "During print"
 msgstr "Pendant l’impression"
 
 msgid "Complete print"
-msgstr "Impression complète"
+msgstr "Après l’impression"
 
 msgid "Filament start G-code"
 msgstr "G-code de démarrage du filament"
