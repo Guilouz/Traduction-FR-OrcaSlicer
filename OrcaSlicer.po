@@ -13930,3 +13930,9 @@ msgstr "Ouvrir la boîte de dialogue pour choisir parmi les polices."
 
 msgid "Disable generating of the M73: Set remaining print time in the final gcode"
 msgstr "Désactiver la génération du M73 : Définir la durée d'impression restante dans le gcode final"
+
+msgid "Support multi bed types"
+msgstr "Support de plusieurs types de plateaux"
+
+msgid "Enable this option if you want to use multiple bed types"
+msgstr "Activez cette option si vous souhaitez utiliser plusieurs types de plateaux"
