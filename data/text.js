@@ -86,7 +86,10 @@ var LangText={
 		"t91":"Download 3D models",
 		"t92":"Bambu Christmas Cabin",
 		"t93":"Printer Connection",
-		"t94":"Please set up your printer connection to view the device."
+		"t94":"Please set up your printer connection to view the device.",
+		"t109":"System Filaments",
+		"t110":"Custom Filaments",
+		"t111":"Create New"
 	},
 	"de_DE":{
 			"t1":"Willkommen im Orca Slicer",
@@ -309,7 +312,7 @@ var LangText={
 		"t50":"Se déconnecter",
 		"t52":"Passer",
 		"t53":"Rejoindre",
-		"t54":"Dans la communauté de l'impression 3D, nous apprenons des succès et des échecs des uns et des autres pour ajuster nos propres paramètres et paramètres de découpage. Bambu Studio suit le même principe et utilise l'apprentissage automatique pour améliorer ses performances à partir des succès et des échecs du grand nombre d'impressions de nos utilisateurs. Nous formons Bambu Studio à être plus intelligent en leur fournissant les données du monde réel. Si vous le souhaitez, ce service accédera aux informations de vos journaux d'erreurs et de vos journaux d'utilisation, qui peuvent inclure des informations décrites dans ",
+		"t54":"Dans la communauté de l'impression 3D, nous apprenons des succès et des échecs des uns et des autres pour ajuster nos propres paramètres et paramètres de découpage. Orca Slicer suit le même principe et utilise l'apprentissage automatique pour améliorer ses performances à partir des succès et des échecs du grand nombre d'impressions de nos utilisateurs. Nous formons Orca Slicer à être plus intelligent en leur fournissant les données du monde réel. Si vous le souhaitez, ce service accédera aux informations de vos journaux d'erreurs et de vos journaux d'utilisation, qui peuvent inclure des informations décrites dans ",
 		"t55":"Politique de confidentialité",
 		"t56":". Nous ne collecterons aucune donnée personnelle par laquelle un individu peut être identifié directement ou indirectement, y compris, sans s'y limiter, les noms, adresses, informations de paiement ou numéros de téléphone. En activant ce service, vous acceptez ces conditions et la déclaration sur la politique de confidentialité.",
 		"t57":"",
@@ -350,6 +353,9 @@ var LangText={
 		"t92":"Cabane de Noël Bambu",
 		"t93":"Connexion à l'imprimante",
 		"t94":"Veuillez configurer la connexion de votre imprimante pour afficher l'interface.",
+		"t109":"Filaments du système",
+		"t110":"Filaments personnalisés",
+		"t111":"Créer un nouveau filament",
 		"wk1":"Démarrage rapide",
 		"wk2":"Cet article présente l'utilisation la plus basique de Orca Slicer. Il guide les utilisateurs pour configurer le logiciel, créer des projets et effectuer la première tâche d'impression étape par étape.",
 		"wk3":"Workflow basé sur des projets",
@@ -365,7 +371,7 @@ var LangText={
 		"wk13":"Format STEP",
 		"wk14":"Par rapport au format STL, le format STEP apporte des informations plus efficaces. Grâce à la grande précision de ce format, de nombreuses trajectoires d'extrusion peuvent être générées sous forme d'arcs. Il inclut également la relation d'assemblage de chaque pièce d'un modèle, qui peut être utilisée pour restaurer la vue d'assemblage après la coupe d'un modèle.",
 		"wk15":"Texte 3D",
-		"wk16":"Avec l'outil Texte 3D, les utilisateurs peuvent facilement créer diverses formes de texte 3D dans le projet, ce qui rend le modèle plus personnalisé. Bambu Studio fournit des dizaines de polices et prend en charge les styles gras et italique pour donner au texte une plus grande flexibilité."	
+		"wk16":"Avec l'outil Texte 3D, les utilisateurs peuvent facilement créer diverses formes de texte 3D dans le projet, ce qui rend le modèle plus personnalisé. Orca Slicer fournit des dizaines de polices et prend en charge les styles gras et italique pour donner au texte une plus grande flexibilité."	
 	},
 	"zh_CN":{
 		"t1":"欢迎使用Orca Slicer",
