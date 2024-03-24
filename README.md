@@ -18,7 +18,8 @@ Vous trouverez ici la traduction française du slicer OrcaSlicer.
   - Télécharger et dézippez l'archive du pack de traduction disponible : [ici](https://github.com/Guilouz/Traduction-FR-OrcaSlicer/archive/refs/heads/main.zip).
   - Rendez-vous dans le dossier d'installation de Bambu Studio, par défaut : `C:\Program Files\Bambu Studio`.
   - Rendez-vous dans le dossier `\resources\web\data` et remplacez le fichier `text.js` du dossier `data`.
-  - Rendez-vous dans le dossier `\resources\web\guide\24` et remplacez le fichier `missing_connection.html` du dossier `guide`.
+  - Rendez-vous dans le dossier `\resources\web\guide\24` et remplacez le fichier `index.html` du dossier `guide`.
+  - Rendez-vous dans le dossier `\resources\web\orca` et remplacez le fichier `missing_connection.html` du dossier `orca`.
   - Rendez-vous ensuite dans le dossier `\resources\i18n\fr` et remplacez le fichier `OrcaSlicer.mo`.
   - Démarrez OrcaSlicer et définissez la langue sur `Français` dans les paramètres.
 
@@ -28,7 +29,8 @@ Vous trouverez ici la traduction française du slicer OrcaSlicer.
   - Rendez-vous dans votre dossier `Applications`.
   - Faites un clic droit sur l'application `OrcaSlicer.app` puis `Afficher le contenu du paquet`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\data` et remplacez le fichier `text.js` du dossier `data`.
-  - Rendez-vous dans le dossier `\Contents\Resources\web\guide\24` et remplacez le fichier `missing_connection.html` du dossier `guide`.
+  - Rendez-vous dans le dossier `\Contents\Resources\web\guide\24` et remplacez le fichier `index.html` du dossier `guide`.
+  - Rendez-vous dans le dossier `\Contents\Resources\web\orca` et remplacez le fichier `missing_connection.html` du dossier `orca`.
   - Rendez-vous ensuite dans le dossier `\Contents\Resources\i18n\fr` et remplacez le fichier `OrcaSlicer.mo`.
   - Démarrez OrcaSlicer et définissez la langue sur `Français` dans les paramètres.
 
