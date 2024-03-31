@@ -1330,7 +1330,7 @@ msgid "Unselect"
 msgstr "Désélectionner"
 
 msgid "Measure"
-msgstr "Mesures"
+msgstr "Mesurer"
 
 msgid "Edit to scale"
 msgstr "Modifier à l’échelle"
