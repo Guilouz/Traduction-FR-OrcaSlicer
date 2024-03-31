@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-23 13:08+0800\n"
+"POT-Creation-Date: 2024-03-29 21:10+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -12008,6 +12008,12 @@ msgstr "Afficher les marques de calibration"
 msgid "Disable set remaining print time"
 msgstr "Désactiver la durée d’impression restante"
 
+msgid ""
+"Disable generating of the M73: Set remaining print time in the final gcode"
+msgstr ""
+"Désactiver la génération du M73 : Définir le temps d'impression restant dans "
+"le gcode final"
+
 msgid "Seam position"
 msgstr "Position de la couture"
 
@@ -12084,6 +12090,23 @@ msgstr ""
 "Si l’angle maximum à l’intérieur de la boucle périphérique dépasse cette "
 "valeur (indiquant l’absence de coins pointus), une couture à joint d’écharpe "
 "sera utilisée. La valeur par défaut est 155°."
+
+msgid "Conditional overhang threshold"
+msgstr "Seuil de surplomb conditionnel"
+
+#, no-c-format, no-boost-format
+msgid ""
+"This option determines the overhang threshold for the application of scarf "
+"joint seams. If the unsupported portion of the perimeter is less than this "
+"threshold, scarf joint seams will be applied. The default threshold is set "
+"at 40% of the external wall's width. Due to performance considerations, the "
+"degree of overhang is estimated."
+msgstr ""
+"Cette option détermine le seuil de de surplomb pour l'application des "
+"coutures joints d'écharpe. Si la partie non soutenue du périmètre est "
+"inférieure à ce seuil, des joints d'écharpe seront appliqués. Le seuil par "
+"défaut est fixé à 40% de la largeur de la paroi extérieure. Pour des raisons "
+"de performance, le degré de surplomb est estimé."
 
 msgid "Scarf joint speed"
 msgstr "Vitesse des joints d’écharpe"
@@ -15390,6 +15413,55 @@ msgstr ""
 "L’énumération des imprimantes hôtes a échoué.\n"
 "Corps du message : \"%1%\"\n"
 "Erreur : \"%2%\""
+
+msgid "Connected to Obico successfully!"
+msgstr "Connexion à Obico réussie !"
+
+msgid "Could not connect to Obico"
+msgstr "Impossible de se connecter à Obico"
+
+msgid "Connected to SimplyPrint successfully!"
+msgstr "Connexion à SimplyPrint réussie !"
+
+msgid "Could not connect to SimplyPrint"
+msgstr "Impossible de se connecter à SimplyPrint"
+
+msgid "SimplyPrint account not linked. Go to Connect options to set it up."
+msgstr ""
+"Compte SimplyPrint non lié. Accédez aux options de connexion pour le "
+"configurer."
+
+msgid ""
+"File size exceeds the 100MB upload limit. Please upload your file through "
+"the panel."
+msgstr ""
+"La taille du fichier dépasse la limite de téléchargement de 100 Mo. Veuillez "
+"télécharger votre fichier via le panneau."
+
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+msgid "Connection to Flashforge works correctly."
+msgstr "La connexion à Flashforge fonctionne correctement."
+
+msgid "Could not connect to Flashforge"
+msgstr "Impossible de se connecter à Flashforge"
+
+msgid "The provided state is not correct."
+msgstr "L’état fourni n’est pas correct."
+
+msgid "Please give the required permissions when authorizing this application."
+msgstr ""
+"Veuillez donner les autorisations requises lors de l’autorisation de cette "
+"application."
+
+msgid "Something unexpected happened when trying to log in, please try again."
+msgstr ""
+"Quelque chose d’inattendu s’est produit lors de la tentative de connexion, "
+"veuillez réessayer."
+
+msgid "User cancelled."
+msgstr "Annulation de l’utilisateur."
 
 #: resources/data/hints.ini: [hint:Precise wall]
 msgid ""
