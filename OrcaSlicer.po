@@ -12523,7 +12523,7 @@ msgid ""
 "etc."
 msgstr ""
 "Créer uniquement des supports pour les zones critiques, y compris les "
-"pointes, les surplombs, etc."
+"pointes, les porte-à-faux, etc."
 
 msgid "Remove small overhangs"
 msgstr "Supprimer les petits surplombs"
@@ -13742,7 +13742,7 @@ msgid "floating regions"
 msgstr "des régions flottantes"
 
 msgid "floating cantilever"
-msgstr "un cantilever flottant"
+msgstr "des porte-à-faux flottants"
 
 msgid "large overhangs"
 msgstr "des surplombs importants"
