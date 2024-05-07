@@ -6531,7 +6531,7 @@ msgid "End"
 msgstr "Fin"
 
 msgid "Customize"
-msgstr "Personnaliser"
+msgstr "Personnalisée"
 
 msgid "Other layer filament sequence"
 msgstr "Séquence du filament des autres couches"
