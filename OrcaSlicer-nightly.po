@@ -5511,7 +5511,7 @@ msgid "View all object's settings"
 msgstr "Afficher tous les paramètres de l'objet"
 
 msgid "Remove current plate (if not last one)"
-msgstr "Retirer la plaque actuelle (si elle n'est pas la dernière)"
+msgstr "Retirer le plateau actuel (si il n'est pas le seul)"
 
 msgid "Auto orient objects on current plate"
 msgstr "Orientation automatique des objets sur le plateau actuel"
@@ -6543,13 +6543,13 @@ msgid "Plate name"
 msgstr "Nom du plateau"
 
 msgid "Same as Global Print Sequence"
-msgstr "Identique à la séquence d’impression globale"
+msgstr "Séquence d’impression globale"
 
 msgid "Print sequence"
 msgstr "Séquence d'impression"
 
 msgid "Same as Global"
-msgstr "Identique à la séquence globale"
+msgstr "Séquence globale"
 
 msgid "Disable"
 msgstr "Désactivé"
@@ -6561,10 +6561,10 @@ msgid "First layer filament sequence"
 msgstr "Séquence d’impression de la première couche"
 
 msgid "Same as Global Plate Type"
-msgstr "Identique au type de plateau par défaut"
+msgstr "Type de plateau par défaut"
 
 msgid "Same as Global Bed Type"
-msgstr "Identique au type de plateau par défaut"
+msgstr "Type de plateau par défaut"
 
 msgid "By Layer"
 msgstr "Par couche"
