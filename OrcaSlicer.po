@@ -11229,7 +11229,7 @@ msgstr ""
 "principale de la ligne"
 
 msgid "Solid infill direction"
-msgstr "Direction de remplissage solide"
+msgstr "Direction du remplissage solide"
 
 msgid ""
 "Angle for solid infill pattern, which controls the start or main direction "
