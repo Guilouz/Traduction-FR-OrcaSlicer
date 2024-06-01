@@ -36,6 +36,9 @@ Vous trouverez ici la traduction française du slicer OrcaSlicer.
 
 ## Changements
 
+- **01/05/2024:**
+  - Traduction pour la version [2.1.0 Beta Release](https://github.com/SoftFever/OrcaSlicer/releases/tag/v2.1.0-beta)
+
 - **31/03/2024:**
   - Traduction pour la version [2.0.0 Official Release](https://github.com/SoftFever/OrcaSlicer/releases/tag/v2.0.0)
 
