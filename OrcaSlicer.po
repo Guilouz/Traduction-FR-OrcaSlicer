@@ -4100,7 +4100,7 @@ msgid "Printer settings"
 msgstr "Paramètres de l'imprimante"
 
 msgid "parameter name"
-msgstr "nom du paramètre"
+msgstr "Nom du paramètre"
 
 #, c-format, boost-format
 msgid "%s can't be percentage"
