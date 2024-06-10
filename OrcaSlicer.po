@@ -4279,7 +4279,7 @@ msgid "Extruder"
 msgstr "Hotend"
 
 msgid "Filament change times"
-msgstr "Durée de changement de filament"
+msgstr "Nombre de changement de filament"
 
 msgid "Cost"
 msgstr "Coût"
