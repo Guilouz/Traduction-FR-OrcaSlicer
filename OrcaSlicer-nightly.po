@@ -4704,38 +4704,38 @@ msgstr "Vue par défaut"
 
 #. TRN To be shown in the main menu View->Top
 msgid "Top"
-msgstr "Vue de dessus"
+msgstr "Dessus"
 
 msgid "Top View"
 msgstr "Vue de dessus"
 
 #. TRN To be shown in the main menu View->Bottom
 msgid "Bottom"
-msgstr "Vue de dessous"
+msgstr "Dessous"
 
 msgid "Bottom View"
 msgstr "Vue de dessous"
 
 msgid "Front"
-msgstr "Vue de face"
+msgstr "Avant"
 
 msgid "Front View"
-msgstr "Vue de face"
+msgstr "Vue de l'avant"
 
 msgid "Rear"
-msgstr "Vue arrière"
+msgstr "Arrière"
 
 msgid "Rear View"
-msgstr "Vue arrière"
+msgstr "Vue de l’arrière"
 
 msgid "Left"
-msgstr "Vue de gauche"
+msgstr "Gauche"
 
 msgid "Left View"
 msgstr "Vue de gauche"
 
 msgid "Right"
-msgstr "Vue de droite"
+msgstr "Droite"
 
 msgid "Right View"
 msgstr "Vue de droite"
