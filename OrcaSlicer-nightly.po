@@ -4700,7 +4700,7 @@ msgid "Download Models"
 msgstr "Télécharger les modèles"
 
 msgid "Default View"
-msgstr "Vue par défaut"
+msgstr "Par défaut"
 
 #. TRN To be shown in the main menu View->Top
 msgid "Top"
