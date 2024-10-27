@@ -4612,7 +4612,7 @@ msgid "Multi-device"
 msgstr "Multi-Imprimantes"
 
 msgid "Project"
-msgstr "Projet"
+msgstr "Projets"
 
 msgid "Yes"
 msgstr "Oui"
@@ -5667,7 +5667,7 @@ msgstr "Ne plus afficher"
 
 #, c-format, boost-format
 msgid "%s error"
-msgstr "%s erreur"
+msgstr "Erreur %s"
 
 #, c-format, boost-format
 msgid "%s has encountered an error"
@@ -5675,7 +5675,7 @@ msgstr "%s a rencontré une erreur"
 
 #, c-format, boost-format
 msgid "%s warning"
-msgstr "%s avertissement"
+msgstr "Avertissement %s"
 
 #, c-format, boost-format
 msgid "%s has a warning"
@@ -5683,11 +5683,11 @@ msgstr "%s a un avertissement"
 
 #, c-format, boost-format
 msgid "%s info"
-msgstr "%s infos"
+msgstr "Infos %s"
 
 #, c-format, boost-format
 msgid "%s information"
-msgstr "%s informations"
+msgstr "Informations %s"
 
 msgid "Skip"
 msgstr "Passer"
@@ -12164,7 +12164,7 @@ msgstr ""
 "firmware."
 
 msgid "Add line number"
-msgstr "Ajouter un numéro de ligne"
+msgstr "Ajouter des numéros de ligne"
 
 msgid "Enable this to add line number(Nx) at the beginning of each G-Code line"
 msgstr ""
@@ -14065,7 +14065,7 @@ msgid "The z gap between the bottom support interface and object"
 msgstr "Distance Z entre l'interface de support inférieure et l'objet"
 
 msgid "Support/raft base"
-msgstr "Base Supports/Radeau"
+msgstr "Base des supports et radeau"
 
 msgid ""
 "Filament to print support base and raft. \"Default\" means no specific "
@@ -14101,7 +14101,7 @@ msgstr ""
 "Désactivé par défaut."
 
 msgid "Support/raft interface"
-msgstr "Interfaces Supports/Radeau"
+msgstr "Interfaces des supports et radeau"
 
 msgid ""
 "Filament to print support interface. \"Default\" means no specific filament "
