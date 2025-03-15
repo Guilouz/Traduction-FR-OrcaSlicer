@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-01 17:37+0800\n"
+"POT-Creation-Date: 2025-03-09 14:32+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -1017,6 +1017,12 @@ msgid "Orient the text towards the camera."
 msgstr "Orienter le texte vers la caméra."
 
 #, boost-format
+msgid "Font \"%1%\" can't be used. Please select another."
+msgstr ""
+"La police \"%1%\" ne peut pas être utilisée. Veuillez en sélectionner un "
+"autre."
+
+#, boost-format
 msgid ""
 "Can't load exactly same font(\"%1%\"). Application selected a similar "
 "one(\"%2%\"). You have to specify font for enable edit text."
@@ -1284,6 +1290,9 @@ msgstr "L’analyseur Nano SVG ne peut pas charger le fichier (%1%)."
 msgid "SVG file does NOT contain a single path to be embossed (%1%)."
 msgstr ""
 "Le fichier SVG ne contient PAS de chemin unique à mettre en relief (%1%)."
+
+msgid "No feature"
+msgstr "Aucune fonctionnalité"
 
 msgid "Vertex"
 msgstr "Vertex"
@@ -3279,8 +3288,12 @@ msgstr ""
 "Une erreur s'est produite. Il est possible que la mémoire du système ne soit "
 "pas suffisante ou que ce soit un bug du programme"
 
-msgid "Please save project and restart the program. "
-msgstr "Veuillez enregistrer le projet et redémarrer le programme. "
+#, boost-format
+msgid "A fatal error occurred: \"%1%\""
+msgstr "Une erreur fatale s'est produite : \"%1%\""
+
+msgid "Please save project and restart the program."
+msgstr "Veuillez enregistrer le projet et redémarrer le programme."
 
 msgid "Processing G-Code from Previous file..."
 msgstr "Traitement G-Code du fichier précédent..."
@@ -3793,10 +3806,10 @@ msgstr ""
 
 msgid ""
 "Alternate extra wall does't work well when ensure vertical shell thickness is "
-"set to All. "
+"set to All."
 msgstr ""
-"La paroi supplémentaire alternative ne fonctionne pas bien si \"Assurer "
-"l’épaisseur verticale de la coque\" est défini sur \"Tout\". "
+"La paroi supplémentaire alternée ne fonctionne pas bien lorsque l'épaisseur "
+"de la coque verticale est réglée sur Tout."
 
 msgid ""
 "Change these settings automatically? \n"
@@ -4533,7 +4546,7 @@ msgstr "Volume :"
 msgid "Size:"
 msgstr "Taille :"
 
-#, c-format, boost-format
+#, boost-format
 msgid ""
 "Conflicts of gcode paths have been found at layer %d, z = %.2lf mm. Please "
 "separate the conflicted objects farther (%s <-> %s)."
@@ -4931,6 +4944,16 @@ msgstr "Utiliser la vue en perspective"
 msgid "Use Orthogonal View"
 msgstr "Utiliser la vue orthogonale"
 
+msgid "Auto Perspective"
+msgstr "Perspective automatique"
+
+msgid ""
+"Automatically switch between orthographic and perspective when changing from "
+"top/bottom/side views"
+msgstr ""
+"Passage automatique de la vue orthographique à la vue en perspective lorsque "
+"l'on passe d'une vue de dessus, de dessous ou de côté"
+
 msgid "Show &G-code Window"
 msgstr "Afficher la fenêtre G-code"
 
@@ -5071,16 +5094,19 @@ msgid "&Help"
 msgstr "&Aide"
 
 #, c-format, boost-format
-msgid "A file exists with the same name: %s, do you want to override it."
-msgstr "Un fichier existe avec le même nom : %s. Voulez-vous le remplacer ?"
+msgid "A file exists with the same name: %s, do you want to overwrite it?"
+msgstr "Un fichier existe avec le même nom : %s, voulez-vous le remplacer ?"
 
 #, c-format, boost-format
-msgid "A config exists with the same name: %s, do you want to override it."
+msgid "A config exists with the same name: %s, do you want to overwrite it?"
 msgstr ""
-"Une configuration existe avec le même nom : %s. Voulez-vous la remplacer ?"
+"Une configuration existe avec le même nom : %s, voulez-vous la remplacer ?"
 
 msgid "Overwrite file"
 msgstr "Écraser le fichier"
+
+msgid "Overwrite config"
+msgstr "Ecraser la configuration"
 
 msgid "Yes to All"
 msgstr "Oui pour Tous"
@@ -6491,6 +6517,26 @@ msgstr ""
 "L’importation vers OrcaSlicer a échoué. Veuillez télécharger le fichier et "
 "l’importer manuellement."
 
+msgid "INFO:"
+msgstr "INFOS:"
+
+msgid ""
+"No accelerations provided for calibration. Use default acceleration value "
+msgstr ""
+"Aucune accélération n’est fournie pour la calibration. Utilisation de la "
+"valeur d’accélération par défaut."
+
+msgid "mm/s²"
+msgstr "mm/s²"
+
+msgid "No speeds provided for calibration. Use default optimal speed "
+msgstr ""
+"Aucune vitesse n’est fournie pour la calibration. Utilisation de la vitesse "
+"optimale par défaut."
+
+msgid "mm/s"
+msgstr "mm/s"
+
 msgid "Import SLA archive"
 msgstr "Importer une archive SLA"
 
@@ -6713,13 +6759,13 @@ msgstr ""
 
 #, c-format, boost-format
 msgid ""
-"Plate% d: %s is not suggested to be used to print filament %s(%s). If you "
+"Plate %d: %s is not suggested to be used to print filament %s(%s). If you "
 "still want to do this printing, please set this filament's bed temperature to "
-"non zero."
+"non-zero."
 msgstr ""
 "Le plateau %d : %s n’est pas suggéré pour être utilisé avec le filament "
 "%s(%s). Si vous souhaitez toujours effectuer cette impression, veuillez "
-"définir la température du plateau de ce filament sur une valeur non nulle."
+"définir la température du plateau pour ce filament sur une valeur non nulle."
 
 msgid "Switching the language requires application restart.\n"
 msgstr "Le changement de langue nécessite le redémarrage de l'application.\n"
@@ -8557,8 +8603,8 @@ msgstr ""
 "processus et contient les modifications non enregistrées suivantes :"
 
 #, boost-format
-msgid "You have changed some settings of preset \"%1%\". "
-msgstr "Modification du préréglage \"%1%\"."
+msgid "You have changed some settings of preset \"%1%\"."
+msgstr "Vous avez modifié certains paramètres du préréglage \"%1%\"."
 
 msgid ""
 "\n"
@@ -9787,6 +9833,13 @@ msgstr ""
 "nombre de couches de radeau"
 
 msgid ""
+"The prime tower is only supported for multiple objects if they are printed "
+"with the same support_top_z_distance"
+msgstr ""
+"La tour de purge n'est prise en charge que pour plusieurs objets s’ils sont "
+"imprimés avec la même distance support_top_z_distance"
+
+msgid ""
 "The prime tower requires that all objects are sliced with the same layer "
 "heights."
 msgstr ""
@@ -9800,11 +9853,27 @@ msgstr ""
 "La tour de purge n'est prise en charge que si tous les objets ont la même "
 "hauteur de couche variable"
 
+msgid ""
+"One or more object were assigned an extruder that the printer does not have."
+msgstr ""
+"Un ou plusieurs objets se sont vu attribuer un extrudeur dont l’imprimante ne "
+"dispose pas."
+
 msgid "Too small line width"
 msgstr "Largeur de ligne trop petite"
 
 msgid "Too large line width"
 msgstr "Largeur de ligne trop grande"
+
+msgid ""
+"Printing with multiple extruders of differing nozzle diameters. If support is "
+"to be printed with the current filament (support_filament == 0 or "
+"support_interface_filament == 0), all nozzles have to be of the same diameter."
+msgstr ""
+"Impression avec plusieurs extrudeurs de diamètres de buse différents. Si le "
+"support doit être imprimé avec le filament actuel (support_filament == 0 ou "
+"support_interface_filament == 0), toutes les buses doivent avoir le même "
+"diamètre."
 
 msgid ""
 "The prime tower requires that support has the same layer height with object."
@@ -10622,7 +10691,7 @@ msgstr "Parois supplémentaires sur les surplombs"
 
 msgid ""
 "Create additional perimeter paths over steep overhangs and areas where "
-"bridges cannot be anchored. "
+"bridges cannot be anchored."
 msgstr ""
 "Créer des chemins de périmètres supplémentaires sur les surplombs abrupts et "
 "les zones où les ponts ne peuvent pas être ancrés."
@@ -10801,9 +10870,6 @@ msgstr ""
 "murs en surplomb qui sont soutenus à moins de 13%, qu’ils fassent partie d’un "
 "pont ou d’un surplomb."
 
-msgid "mm/s"
-msgstr "mm/s"
-
 msgid "Internal"
 msgstr "Interne"
 
@@ -10950,9 +11016,6 @@ msgid ""
 msgstr ""
 "L'accélération par défaut de l'impression normale et du déplacement à "
 "l'exception de la couche initiale"
-
-msgid "mm/s²"
-msgstr "mm/s²"
 
 msgid "Default filament profile"
 msgstr "Profil de filament par défaut"
@@ -12624,7 +12687,7 @@ msgstr "Couches et Périmètres"
 msgid ""
 "Don't print gap fill with a length is smaller than the threshold specified "
 "(in mm). This setting applies to top, bottom and solid infill and, if using "
-"the classic perimeter generator, to wall gap fill. "
+"the classic perimeter generator, to wall gap fill."
 msgstr ""
 "Ne pas imprimer de remplissage d’espace avec une longueur inférieure au seuil "
 "spécifié (en mm). Ce paramètre s’applique au remplissage supérieur, inférieur "
@@ -14224,6 +14287,18 @@ msgstr "Hauteur de la jupe"
 msgid "How many layers of skirt. Usually only one layer"
 msgstr "Nombre de couches de la jupe. Généralement une seule couche suffit."
 
+msgid "Single loop draft shield"
+msgstr "Une seule paroi pour le bouclier"
+
+msgid ""
+"Limits the draft shield loops to one wall after the first layer. This is "
+"useful, on occasion, to conserve filament but may cause the draft shield to "
+"warp / crack."
+msgstr ""
+"Limite les parois du bouclier à une paroi après la première couche. Ceci est "
+"parfois utile pour économiser le filament, mais peut provoquer une "
+"déformation ou une fissuration du bouclier."
+
 msgid "Draft shield"
 msgstr "Bouclier"
 
@@ -14292,7 +14367,7 @@ msgid ""
 "Using a non zero value is useful if the printer is set up to print without a "
 "prime line.\n"
 "Final number of loops is not taling into account whli arranging or validating "
-"objects distance. Increase loop number in such case. "
+"objects distance. Increase loop number in such case."
 msgstr ""
 "Longueur minimale d’extrusion du filament en mm lors de l’impression de la "
 "jupe. Zéro signifie que cette fonctionnalité est désactivée.\n"
@@ -14361,17 +14436,19 @@ msgstr ""
 msgid "Max XY Smoothing"
 msgstr "Lissage X-Y maximum"
 
+#, no-c-format, no-boost-format
 msgid ""
-"Maximum distance to move points in XY to try to achieve a smooth spiralIf "
+"Maximum distance to move points in XY to try to achieve a smooth spiral. If "
 "expressed as a %, it will be computed over nozzle diameter"
 msgstr ""
-"Distance maximale pour déplacer les points en X et Y pour tenter d’obtenir "
-"une spirale lisse. Si elle est exprimée en %, elle sera calculée sur le "
-"diamètre de la buse"
+"Distance maximale pour déplacer les points en X et Y pour obtenir une spirale "
+"lisse. Si elle est exprimée en %, elle sera calculée sur le diamètre de la "
+"buse"
 
 msgid "Spiral starting flow ratio"
 msgstr "Ratio du débit de départ de la spirale"
 
+#, no-c-format, no-boost-format
 msgid ""
 "Sets the starting flow ratio while transitioning from the last bottom layer "
 "to the spiral. Normally the spiral transition scales the flow ratio from 0% "
@@ -14386,6 +14463,7 @@ msgstr ""
 msgid "Spiral finishing flow ratio"
 msgstr "Ratio du débit de fin de la spirale"
 
+#, no-c-format, no-boost-format
 msgid ""
 "Sets the finishing flow ratio while ending the spiral. Normally the spiral "
 "transition scales the flow ratio from 100% to 0% during the last loop which "
@@ -14792,7 +14870,7 @@ msgstr ""
 "(organique par défaut), tandis que le style hybride créera une structure "
 "similaire aux supports normaux sous de grands surplombs plats."
 
-msgid "Default (Grid/Organic"
+msgid "Default (Grid/Organic)"
 msgstr "Par défaut (Grille/Organique)"
 
 msgid "Snug"
@@ -15853,7 +15931,7 @@ msgstr ""
 "Définit le niveau de journalisation du déboggage. 0:fatal, 1:erreur, 2:"
 "avertissement, 3:info, 4:déboggage, 5:tracer\n"
 
-msgid "Enable timeplapse for print"
+msgid "Enable timelapse for print"
 msgstr "Activer le timelapse pour l’impression"
 
 msgid "If enabled, this slicing will be considered using timelapse"
@@ -16959,8 +17037,20 @@ msgstr "Fin: "
 msgid "PA step: "
 msgstr "Intervalle: "
 
+msgid "Accelerations: "
+msgstr "Accélérations :"
+
+msgid "Speeds: "
+msgstr "Vitesses : "
+
 msgid "Print numbers"
 msgstr "Imprimer les numéros"
+
+msgid "Comma-separated list of printing accelerations"
+msgstr "Liste des accélérations d’impression séparées par des virgules"
+
+msgid "Comma-separated list of printing speeds"
+msgstr "Liste des vitesses d’impression séparées par des virgules"
 
 msgid ""
 "Please input valid values:\n"
@@ -18811,11 +18901,6 @@ msgstr "Bambu Smooth Cool Plate / Plateau PLA"
 msgid "Select another font."
 msgstr "Sélectionnez une autre police."
 
-msgid "Font \"%1%\" can't be used. Please select another."
-msgstr ""
-"La police \"%1%\" ne peut pas être utilisée. Veuillez en sélectionner un "
-"autre."
-
 msgid "Selected font is NOT True-type."
 msgstr "La police sélectionnée n’est PAS de type True."
 
@@ -18830,9 +18915,6 @@ msgstr "L’application en a sélectionné une similaire (\"%2%\"). "
 
 msgid "You have to specify font for enable edit text."
 msgstr "Vous devez spécifier la police pour activer la modification du texte."
-
-msgid "No feature"
-msgstr "Aucune fonctionnalité"
 
 msgid "Add file with font(.ttf, .ttc)"
 msgstr "Ajouter un fichier de police (.ttf, .ttc)"
